@@ -1,0 +1,26 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+   
+    &-Menu{
+        width: 700px;
+
+    }
+    &-ListItems{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    &-Item{
+        list-style: none;
+
+    }
+    &-Link{
+        text-decoration: none;
+        color: $third-color;
+        font-size: $l;
+
+    }
+}
